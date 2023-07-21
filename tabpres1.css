@@ -1,0 +1,40 @@
+table {
+    position: absolute;
+    top: 63px;
+    left: 8px;
+    background: white;
+    font-size: 11px;
+    
+}
+
+
+th{
+    background: #d94a38; 
+    color: #fff;
+    padding: 10px 4px;
+    text-align: center;
+}
+
+td{
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: 3px 10px 3px;
+}
+
+tbody tr:nth-child(even){
+    background: #eee;
+}
+
+tfoot td{
+    background: #666;
+    color: #fff;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+caption{
+     background: #666;
+     color: #fff;
+     padding: 10px;
+     border-radius: 10px 10px 0 0;
+}

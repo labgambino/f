@@ -1,0 +1,108 @@
+body { 
+    margin: 0;
+    padding: 0;
+    background: url(PNGFINCAGARCES4.png) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+.login-box {
+    width: 320px;
+    height: 450px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 130px 30px;
+}
+
+.login-box .avatar {
+width: 300px;
+height: 100px;
+position: absolute;
+top: 10px;
+left: 10px;   
+}
+
+.login-box h1 {
+    
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 19px;
+    color:#b80f22
+}
+
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+   width: 100%;
+    margin-bottom: 40px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.login-box input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.7s ease;
+}
+
+.login-box input[type="button"]:hover {
+    
+    background: green;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 30px;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#particles-js{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+
+
+
+
+
+
+
+
+
+
+
